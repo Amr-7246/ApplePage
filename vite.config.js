@@ -9,7 +9,8 @@ export default defineConfig({
     project: "javascript-react"
   })],
 
+  base: '/ApplePage/', // Replace "my-react-app" with your repository name
   build: {
-    sourcemap: true
-  }
+    outDir: 'dist',
+  },
 })
